@@ -1,0 +1,19 @@
+---
+appveyor.yml:
+  delete: true
+.travis.yml:
+  delete: true
+.gitlab-ci.yml:
+  delete: true
+
+.rubocop.yml:
+  default_configs:
+    Layout/SpaceInsideHashLiteralBraces:
+      Description: Omit space inside hash literals to distinguish them from blocks.
+      EnforcedStyle: no_space
+    Style/RegexpLiteral:
+      Description: |
+        Slashes are consistent for both the Ruby and Puppet Languages. %r{} is
+        useful when it avoids escaping slashes.
+      EnforcedStyle: slashes
+      AllowInnerSlashes: false
