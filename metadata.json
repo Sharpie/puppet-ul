@@ -1,10 +1,12 @@
 {
   "name": "sharpie-ul",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": "Charlie Sharpsteen",
-  "summary": "",
+  "summary": "Un-standard library of Puppet functions",
   "license": "MIT",
-  "source": "",
+  "source": "https://github.com/Sharpie/puppet-ul",
+  "project_page": "https://github.com/Sharpie/puppet-ul",
+  "issues_url": "https://github.com/Sharpie/puppet-ul/issues",
   "dependencies": [
 
   ],
